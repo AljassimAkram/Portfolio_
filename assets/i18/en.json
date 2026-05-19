@@ -1,0 +1,155 @@
+{
+  "About me": "About me",
+  "Skills": "Skills",
+  "Projects": "Projects",
+  "whoAmI": "Who am I",
+  "checkMyWork": "View projects",
+  "contactMe": "Contact me",
+  "frontendDeveloper": "Frontend Developer",
+  "openToWork": "Open to new opportunities",
+  "availableRemote": "Available for remote work",
+  "basedInSpaichingen": "Based in Spaichingen",
+  "aboutMeTitle": "About me",
+  "aboutMeDescription": "Hi, I'm Mihael! I’m a frontend developer with a strong focus on modern web technologies such as HTML, CSS, JavaScript, and frameworks like Angular. My goal is to build intuitive and high-performance user interfaces that are both functional and visually appealing.",
+  "aboutMeLocation": "I live in Spaichingen, a small town near Lake Constance. I'm currently open to remote work and looking forward to exciting new opportunities in the IT field.",
+  "aboutMeMindSet": "Thanks to my curiosity and willingness to learn, I quickly adapt to new technologies and enjoy finding creative solutions to complex challenges.",
+  "aboutMeProblemSolving": "With analytical thinking, perseverance, and team spirit, I tackle every challenge with focus – and learn something new in the process.",
+  "technologies": "Technologies",
+  "skillSet": "Skill Set",
+  "skillSetDescription": "In my work as a frontend developer, I use modern web technologies such as HTML, CSS, JavaScript, and frameworks like Angular to build user-friendly and high-performance applications. I have experience with responsive design, API integration, and developing interactive user interfaces. I continuously expand my skills because I believe that ongoing learning is key to quality and innovation in web development.",
+  "youNeed": "You need",
+  "anotherSkill": "another skill?",
+  "needAnotherSkillText": "Feel free to get in touch – I'm always happy to expand my knowledge and take on new challenges.",
+  "letsTalk": "Let's talk",
+  "specialInterest": "I have a special<br>interest in learning",
+  "featuredProjects": "Featured Projects",
+  "featuredProjectsText": "Take a look at some of my favorite projects!<br> Each one was a unique challenge and shows what I enjoy building and how I work.",
+  "aboutProject": "What is this project about?",
+  "oppinionAboutMe": "What my colleagues say about me",
+  "letsWork": "Let’s work",
+  "together": "together",
+  "problemSlove": "Got a problem to solve?",
+  "problemDescription": "I’m looking for projects where I can contribute as a frontend developer – remotely or as part of a team. With my structured and solution-oriented approach, I’d love to support your next idea. Let’s talk!",
+  "problemContact": "Looking for a frontend developer?",
+  "letConnect": "Let’s connect!",
+  "name": "What’s your name?",
+  "email": "What’s your email?",
+  "help": "How can I help you?",
+  "privacyPolicy": "By submitting, I agree to the processing of my personal data in accordance with the <a class='test' href='privacyPolicy'> privacy policy.</a>",
+  "acceptPrivacyPolicy": "Please accept the privacy policy.",
+  "nameError": "Oops! it seems your name is missing or is too short",
+  "emailError": "Hoppla! your email is required",
+  "messageError": "What do you need to develop?",
+  "placeholderName": "Your name goes here",
+  "placeholderEmail": "youremail@email.com",
+  "placeholderMessage": "Hello Mihael, I am interested in...",
+  "sayHello": "Say Hello",
+  "nextProject": "Next Project",
+  "feedbackMsg": "Thank you! Your email has been received.",
+  "legalNotice": "Legal Notice",
+  "comingSoon": "Coming Soon",
+  "myName": "Mihael Drazic",
+  "projects": {
+    "join": {
+      "description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
+    },
+    "elPolloLoco": {
+      "description": "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen."
+    },
+    "pokedex": {
+      "description": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
+    },
+    "dabubble": {
+      "description": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
+    }
+  },
+  "testimonials": {
+    "1": {
+      "quote": "Working with Mihael was very pleasant and efficient. Thanks to his technical expertise and structured approach, the development process was smooth and productive."
+    },
+    "2": {
+      "quote": "Mihael’s efficient way of working was a great benefit to our project."
+    },
+    "3": {
+      "quote": "I had the pleasure of working with Mihael on a challenging project at the Developer Akademie. He remained calm, focused, and successfully led our team forward."
+    },
+    "4": {
+      "quote": "Mihael is team-oriented, helpful, and brings strong technical expertise. Working with him was always pleasant and productive – any team would benefit from his dedicated approach."
+    },
+    "5": {
+      "quote": "I really enjoyed working with Mihael on the project! He’s super reliable – you can always count on him. At the same time, he works quickly without compromising quality. And his communicative nature really helped everything run smoothly. Truly impressive."
+    }
+  },
+  "privacy": {
+    "headline": "Your Privacy Policy",
+    "general": {
+      "title": "General Information",
+      "responsible": "Information about the responsible party",
+      "company": "Company: Mihael Drazic",
+      "address": "Address: Hohenbergstraße 2, 78549 Spaichingen"
+    },
+    "dataProcessing": {
+      "title": "General Information on Data Processing",
+      "collection": "Personal data is only collected if you provide it voluntarily. No other personal data is collected...",
+      "purpose": "Purpose of processing: (usually) contract initiation or execution.",
+      "recipients": "Categories of recipients: Public authorities where legal provisions take precedence. External service providers or contractors...",
+      "thirdCountry": "Third-country transfers: In the course of contract execution, processors outside the EU may be used.",
+      "storage": "Data storage duration: Based on legal retention periods, typically 10 years."
+    },
+    "websiteSpecific": {
+      "title": "Specific Information About the Website",
+      "note": "-"
+    },
+    "usageData": {
+      "title": "Usage Data",
+      "description": "When you visit our website, technical data is transmitted via your internet browser...",
+      "points": [
+        "Date and time of the request",
+        "Name of the requested file",
+        "Page from which the file was requested",
+        "Access status (file transferred, file not found, etc.)",
+        "Used web browser and operating system",
+        "Complete IP address of the requesting computer",
+        "Amount of data transferred"
+      ],
+      "security": "For technical security reasons... Data is not compared with other datasets or passed on to third parties."
+    },
+    "cookies": {
+      "title": "Use of Necessary \"Cookies\"",
+      "description": "This website uses its own \"cookies\" to store settings required for display... No personal data is stored in our cookies."
+    },
+    "contacts": {
+      "title": "Further Information and Contacts",
+      "description": "You may exercise your rights at any time... contact us via email or mail."
+    },
+    "generatorNote": "This privacy policy was created by the IITR Datenschutz GmbH privacy generator."
+  },
+  "imprint": {
+    "title": "Legal Notice",
+    "responsible": {
+      "title": "Responsible",
+      "name": "Mihael Drazic, Frontend Developer"
+    },
+    "address": {
+      "title": "Address",
+      "details": "Hohenbergstraße 2, 78549 Spaichingen, Germany"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email: mail@mihael-drazic.de",
+      "phone": "Phone: +49 162 3275872"
+    },
+    "website": {
+      "title": "Website Information",
+      "copyright": "Copyright",
+      "copyrightNote": "All content on this website is protected by copyright.",
+      "editorial": "Editorial Responsibility",
+      "editorialNote": "Content responsibility according to § 55 Abs. 2 RStV: Max Mustermann"
+    },
+    "vsbg": {
+      "title": "Consumer Dispute Resolution",
+      "text2": "We are neither obligated nor willing to participate in dispute resolution proceedings before a consumer arbitration board."
+    },
+    "generatedNote": "This imprint was created using the <a class='test' href='https://www.activemind.de/generatoren/impressum/' target='_blank'>imprint generator by activeMind AG</a> (Version 2024-07-05)."
+  }
+}

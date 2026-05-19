@@ -1,0 +1,155 @@
+{
+  "About me": "Über mich",
+  "Skills": "Fähigkeiten",
+  "Projects": "Projekte",
+  "whoAmI": "Wer bin ich",
+  "checkMyWork": "Projekte ansehen",
+  "contactMe": "Kontakt aufnehmen",
+  "frontendDeveloper": "Frontend-Entwickler",
+  "openToWork": "Offen für neue berufliche Möglichkeiten",
+  "availableRemote": "Verfügbar für Remote-Arbeit",
+  "basedInSpaichingen": "Wohnhaft in Spaichingen",
+  "aboutMeTitle": "Über mich",
+  "aboutMeDescription": "Hi ich bin Mihael! Ich bin Frontend-Entwickler mit einem starken Fokus auf moderne Webtechnologien wie HTML, CSS, JavaScript und Frameworks wie Angular. Mein Ziel ist es, intuitive und performante Benutzeroberflächen zu entwickeln.",
+  "aboutMeLocation": "Ich lebe in Spaichingen, einer kleinen Stadt nahe dem Bodensee. Aktuell bin ich offen für Remote-Arbeit und freue mich auf spannende neue Aufgaben im IT-Bereich.",
+  "aboutMeMindSet": "Durch meine Neugier und meinen Lernwillen arbeite ich mich schnell in neue Technologien ein und liebe es, kreative Lösungen für komplexe Herausforderungen zu finden.",
+  "aboutMeProblemSolving": "Mit analytischem Denken, Ausdauer und Teamgeist arbeite ich zielgerichtet an jeder Herausforderung – und lerne dabei ständig dazu.",
+  "technologies": "Technologien",
+  "skillSet": "Fähigkeiten",
+  "skillSetDescription": "In meiner Arbeit als Frontend-Entwickler setze ich moderne Webtechnologien wie HTML, CSS, JavaScript sowie Frameworks wie Angular gezielt ein, um benutzerfreundliche und performante Anwendungen zu entwickeln. Ich habe Erfahrung im Umsetzen responsiver Designs, der Integration von APIs und dem Entwickeln interaktiver Benutzeroberflächen. Ich lerne stetig dazu, weil ich überzeugt bin, dass in der Webentwicklung ständige Weiterbildung der Schlüssel zu Qualität und Innovation ist.",
+  "youNeed": "Sie suchen",
+  "anotherSkill": "eine bestimmte Kompetenz?",
+  "needAnotherSkillText": "Melden Sie sich gerne bei mir – ich freue mich darauf, mein Wissen zu erweitern und neue Herausforderungen anzunehmen.",
+  "letsTalk": "Jetzt Kontakt aufnehmen",
+  "specialInterest": "Ich habe ein besonderes<br>Interesse am Lernen",
+  "featuredProjects": "Meine Projekte",
+  "featuredProjectsText": "",
+  "aboutProject": "Was ist dieses Projekt?",
+  "oppinionAboutMe": "Was meine Kollegen über mich sagen",
+  "letsWork": "Starten wir",
+  "together": "gemeinsam.",
+  "problemSlove": "Haben Sie ein Problem zu lösen?",
+  "problemDescription": "Ich bin auf der Suche nach Projekten, in denen ich mich als Frontend-Entwickler einbringen kann – remote oder im Team. Mit meiner strukturierten und lösungsorientierten Arbeitsweise unterstütze ich gerne auch dein Vorhaben. Lass uns sprechen!",
+  "problemContact": "Benötigen Sie einen Frontend-Entwickler?",
+  "letConnect": "Sprechen Sie mich an!",
+  "name": "Wie heißen Sie?",
+  "email": "Wie lautet Ihre E-Mail?",
+  "help": "Wie kann ich Ihnen helfen?",
+  "privacyPolicy": "Mit dem Absenden erkläre ich mich mit der Verarbeitung meiner personenbezogenen Daten gemäß der <a class='test' href='privacyPolicy'>Datenschutzerklärung</a> einverstanden.",
+  "acceptPrivacyPolicy": "Bitte akzeptieren Sie die Datenschutzerklärung.",
+  "nameError": "Ups! Ihr Name scheint zu fehlen oder zu kurz zu sein",
+  "emailError": "Hoppla! Ihre E-Mail ist erforderlich",
+  "messageError": "Was müssen Sie entwickeln?",
+  "placeholderName": "Ihr Name kommt hier",
+  "placeholderEmail": "deinemail@email.com",
+  "placeholderMessage": "Hallo Mihael, Ich habe interesse an...",
+  "sayHello": "Sag Hallo",
+  "nextProject": "Nächstes Projekt",
+  "feedbackMsg": "Vielen Dank! Ihre E-Mail ist bei mir eingegangen.",
+  "legalNotice": "Impressum",
+  "comingSoon": "In Entwicklung",
+  "myName": "Mihael Drazic",
+  "projects": {
+    "join": {
+      "description": "Ein Aufgabenmanager, inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben per Drag-and-Drop, weise Benutzer und Kategorien zu."
+    },
+    "elPolloLoco": {
+      "description": "Ein 2D-Jump-and-Run-Spiel mit objektorientierter Architektur. Hilf Pepe, Münzen und Tabasco zu sammeln, um gegen das verrückte Huhn zu kämpfen."
+    },
+    "pokedex": {
+      "description": "Eine Slack-ähnliche App zur Verbesserung der Teamkommunikation mit intuitiver Oberfläche, Echtzeit-Nachrichten und klarer Kanalstruktur."
+    },
+    "dabubble": {
+      "description": "Diese App ist eine Slack-Klon-App. Sie revolutioniert die Teamkommunikation und -zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeit-Messaging und robusten Kanalorganisation."
+    }
+  },
+  "testimonials": {
+    "1": {
+      "quote": "Die Zusammenarbeit mit Mihael war sehr angenehm und effizient. Dank seines technischen Know-hows und seiner strukturierten Arbeitsweise verlief die Entwicklung reibungslos und produktiv."
+    },
+    "2": {
+      "quote": "„Die effiziente Arbeitsweise von Mihael war ein großer Gewinn für unser Projekt.“"
+    },
+    "3": {
+      "quote": "Ich hatte das Glück, mit Mihael an einem anspruchsvollen Projekt bei der Developer Akademie zu arbeiten. Er blieb stets ruhig, fokussiert und brachte unser Team erfolgreich voran."
+    },
+    "4": {
+      "quote": "Mihael ist teamorientiert, hilfsbereit und bringt ein starkes technisches Verständnis mit. Die Zusammenarbeit mit ihm war stets angenehm und produktiv – jedes Team würde von seiner engagierten Art profitieren."
+    },
+    "5": {
+      "quote": "Hab echt gern mit Mihael im Projekt zusammengearbeitet! Mihael ist super zuverlässig - auf ihn kann man sich einfach verlassen. Gleichzeitig ist er flott unterwegs, ohne dass die Qualität leidet. Und seine kommunikative Art hat total dazu beigetragen, dass alles so reibungslos lief. Echt stark"
+    }
+  },
+  "privacy": {
+    "headline": "Ihre Datenschutzerklärung",
+    "general": {
+      "title": "Allgemeine Angaben",
+      "responsible": "Angaben zur verantwortlichen Stelle",
+      "company": "Unternehmen: Mihael Drazic",
+      "address": "Adresse: Hohenbergstraße 2, 78549 Spaichingen"
+    },
+    "dataProcessing": {
+      "title": "Allgemeine Datenverarbeitungs-Informationen",
+      "collection": "Personenbezogene Daten werden nur erhoben, wenn Sie uns diese von sich aus mitteilen. Darüber hinaus werden keine personenbezogenen Daten erhoben...",
+      "purpose": "Verarbeitungszweck: (in der Regel) Vertragsanbahnung bzw. -durchführung.",
+      "recipients": "Kategorien von Empfängern: Öffentliche Stellen bei Vorliegen vorrangiger Rechtsvorschriften. Externe Dienstleister oder sonstige Auftragnehmer...",
+      "thirdCountry": "Drittlandtransfers: Im Rahmen der Vertragsdurchführung können auch Auftragsverarbeiter außerhalb der Europäischen Union zum Einsatz kommen.",
+      "storage": "Dauer Datenspeicherung: Die Dauer der Datenspeicherung richtet sich nach den gesetzlichen Aufbewahrungspflichten und beträgt in der Regel 10 Jahre."
+    },
+    "websiteSpecific": {
+      "title": "Spezifische Angaben zur Webseite",
+      "note": "-"
+    },
+    "usageData": {
+      "title": "Nutzungsdaten",
+      "description": "Wenn Sie unsere Webseiten aufrufen, übermitteln Sie (aus technischer Notwendigkeit) über Ihren Internetbrowser Daten an unseren Webserver...",
+      "points": [
+        "Datum und Uhrzeit der Anforderung",
+        "Name der angeforderten Daten",
+        "Seite, von der aus die Datei angefordert wurde",
+        "Zugriffsstatus (Datei übertragen, Datei nicht gefunden, etc.)",
+        "verwendeter Webbrowser und verwendetes Betriebssystem",
+        "vollständige IP-Adresse des anfordernden Rechners",
+        "übertragene Datenmenge"
+      ],
+      "security": "Aus Gründen der technischen Sicherheit... Ein Abgleich mit anderen Daten oder eine Weitergabe an Dritte findet nicht statt."
+    },
+    "cookies": {
+      "title": "Einsatz eigener für die Webseiten-Anzeige erforderlicher \"Cookies\"",
+      "description": "Diese Webseite verwendet eigene \"Cookies\", um für die Webseiten-Anzeige erforderliche Einstellungen zu speichern..."
+    },
+    "contacts": {
+      "title": "Weitere Informationen und Kontakte",
+      "description": "Darüber hinaus können Sie jederzeit ihre Ansprüche auf Auskunft, Berichtigung oder Löschung... kontaktieren."
+    },
+    "generatorNote": "Diese Datenschutzerklärung wurde vom Datenschutz-Generator der IITR Datenschutz GmbH erstellt."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "responsible": {
+      "title": "Verantwortlich",
+      "name": "Mihael Drazic, Frontend-Entwickler"
+    },
+    "address": {
+      "title": "Adresse",
+      "details": "Hohenbergstraße 2, 78549 Spaichingen, Deutschland"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "E-Mail: mail@mihael-drazic.de",
+      "phone": "Telefon: +49 162 3275872"
+    },
+    "website": {
+      "title": "Website-Informationen",
+      "copyright": "Urheberrecht",
+      "copyrightNote": "Alle Inhalte dieser Webseite sind urheberrechtlich geschützt.",
+      "editorial": "Redaktionelle Verantwortung",
+      "editorialNote": "Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Max Mustermann"
+    },
+    "vsbg": {
+      "title": "Verbraucherstreitbeilegung",
+      "text2": "Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    },
+    "generatedNote": "Dieses Impressum wurde mit Hilfe des <a class='test' href='https://www.activemind.de/generatoren/impressum/' target='_blank'>Impressums-Generators der activeMind AG</a> erstellt (Version 2024-07-05)."
+  }
+}
