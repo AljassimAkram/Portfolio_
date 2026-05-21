@@ -40,6 +40,37 @@ nav a {
   font-size: 20px;
 }
 
+.menu {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.menu::after {
+  content: "";
+  position: absolute;
+
+  left: 50%;
+  bottom: -12px;
+
+  width: 8px;
+  height: 8px;
+
+  background: #1de9c3;
+  border-radius: 50%;
+
+  transform: translateX(-50%);
+
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.menu:hover::after {
+  opacity: 1;
+}
+
 /* Language switch */
 .lang-switch {
   display: flex;
@@ -52,10 +83,11 @@ nav a {
 .lang-switch span {
   padding: 10px 18px;
   font-size: 18px;
-  color: #1de9c3;
+  cursor: pointer;
+  transition: 1s;
 }
 
-.lang-switch .active {
+.active {
   background: #1de9c3;
   color: #0b0b0b;
   border-radius: 30px;
@@ -765,3 +797,5 @@ button:hover {
     transform: translateX(-50%);
   }
 }
+
+

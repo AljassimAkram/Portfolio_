@@ -11,14 +11,14 @@
     <section class="hero">
       <header class="navbar">
         <div class="lang-switch">
-          <span class="active">EN</span>
-          <span>DE</span>
+          <span class="active" id="en" onclick="toggleLanguage('en')">EN</span>
+          <span id="de" onclick="toggleLanguage('de')">DE</span>
         </div>
 
         <nav>
-          <a href="#about">About me</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
+          <a href="#about" class="menu">About me</a>
+          <a href="#skills" class="menu">Skills</a>
+          <a href="#projects" class="menu">Projects</a>
         </nav>
 
         <div class="logo">
@@ -71,241 +71,12 @@
         </span>
       </div> -->
     </section>
-    <section class="about">
-      <div class="about-img-box">
-        <img src="./img/profile.jpg" alt="Profile" />
-      </div>
+    <div id="about"></div>
+    <div id="skills"></div>
+    <div id="projects"></div>
+    <div id="oppinion"></div>
+    <div id="contact"></div>
 
-      <div class="about-content">
-        <p class="section-label">Who I Am</p>
-
-        <div class="about-card">
-          <h2>About me</h2>
-
-          <p class="intro">
-            Hey there, I'm Lukas! Write some information about yourself that is
-            IT related. Why are you passionate about coding?
-          </p>
-
-          <div class="about-item">
-            <span>📍</span>
-            <p>Where are you based? Would you be open to working remotely?</p>
-          </div>
-
-          <div class="about-item">
-            <span>🧠</span>
-            <p>
-              Show that you are open-minded and enthusiastic about learning.
-            </p>
-          </div>
-
-          <div class="about-item">
-            <span>✅</span>
-            <p>A brief description of your problem-solving approach.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="skills-section">
-      <div class="skills-left">
-        <p class="small-title">Technologies</p>
-
-        <div class="skills-card">
-          <h2>Skill Set</h2>
-
-          <p class="text">
-            A short introduction of your skills. Highlight your experience of
-            using different front-end technologies and emphasise your openness
-            to learning and adapting to new technologies.
-          </p>
-
-          <h3>You need <span>another skill?</span></h3>
-
-          <p class="text small-text">
-            Feel free to contact me. I look forward to expanding on my previous
-            knowledge.
-          </p>
-
-          <button>Let's Talk</button>
-        </div>
-      </div>
-
-      <div class="skills-grid">
-        <div class="skill">
-          <img src="./assets/img/html-icon.png" alt="" />
-          <p>HTML</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/css-icon.png" alt="" />
-          <p>CSS</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/js-icon.png" alt="" />
-          <p>JavaScript</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/material-icon.png" alt="" />
-          <p>Material Design</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/typescript-icon.png" alt="" />
-          <p>TypeScript</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/angular-icon.png" alt="" />
-          <p>Angular</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/supabase-icon.png" alt="" />
-          <p>Supabase</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/git-icon.png" alt="" />
-          <p>Git</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/api-icon.png" alt="" />
-          <p>REST-API</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/scrum-icon.png" alt="" />
-          <p>Scrum</p>
-        </div>
-
-        <div class="skill">
-          <img src="./assets/img/growth-icon.png" alt="" />
-          <p>Growth mindset</p>
-        </div>
-      </div>
-    </section>
-    <section class="portfolio-section">
-      <p class="section-label">Portfolio</p>
-      <h2>Featured Projects</h2>
-
-      <p class="portfolio-text">
-        Explore a selection of my work here - Interact with <br />
-        projects to see my skills in action.
-      </p>
-
-      <div class="project-list">
-        <div class="project-row">
-          <h3>Join</h3>
-          <p>
-            Angular <span>|</span> TypeScript <span>|</span> HTML
-            <span>|</span> CSS <span>|</span> Firebase
-          </p>
-        </div>
-
-        <div class="project-row">
-          <h3>El Pollo Loco</h3>
-          <p>HTML <span>|</span> CSS <span>|</span> JavaScript</p>
-        </div>
-
-        <div class="project-row">
-          <h3>DA Bubble</h3>
-          <p>Angular <span>|</span> Firebase <span>|</span> TypeScript</p>
-        </div>
-      </div>
-    </section>
-    <section class="testimonials">
-      <h2>What my colleagues say about me</h2>
-
-      <div class="slider">
-        <div class="card small">
-          <p>Lukas works in a very efficient way.</p>
-          <div class="bottom">
-            <span></span>
-            <p>M. Schulz - Frontend Developer</p>
-          </div>
-        </div>
-
-        <div class="card active">
-          <div class="quote">“</div>
-
-          <p class="text">
-            Lukas has proven to be a reliable group partner. His technical
-            skills and proactive approach were crucial to the success of our
-            project.
-          </p>
-
-          <div class="bottom">
-            <span></span>
-            <p>H. Janisch - Team Partner</p>
-          </div>
-        </div>
-
-        <div class="card small">
-          <p>
-            I had the good fortune of working with Lukas. He always stayed calm,
-            cooperative and knowledgeable.
-          </p>
-          <div class="bottom">
-            <span></span>
-            <p>Colleague - Developer</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="controls">
-        <button>←</button>
-        <div class="dots">
-          <span class="active-dot"></span>
-          <span></span>
-          <span></span>
-        </div>
-        <button>→</button>
-      </div>
-    </section>
-    <section class="contact-section">
-      <div class="contact-left">
-        <p class="label">Contact me</p>
-        <h2>Let's work<br />together</h2>
-
-        <h3>Got a problem to solve?</h3>
-        <p>
-          Encourage people to contact you and describe what role you are
-          interested in. Show that you will add value to their projects through
-          your work.
-        </p>
-
-        <p>Need a Frontend developer? <a href="#">Let’s talk!</a></p>
-      </div>
-
-      <form class="contact-form">
-        <div class="form-group">
-          <label>What's your name?</label>
-          <input type="text" placeholder="Your name goes here" />
-        </div>
-
-        <div class="form-group">
-          <label>What's your email?</label>
-          <input type="email" placeholder="youremail@email.com" />
-        </div>
-
-        <div class="form-group">
-          <label>How can I help you?</label>
-          <textarea placeholder="Hello Lukas, I am interested in..."></textarea>
-        </div>
-
-        <label class="checkbox">
-          <input type="checkbox" />
-          <span></span>
-          I've read the <a href="#">privacy policy</a> and agree to the
-          processing of my data as outlined.
-        </label>
-
-        <button type="submit">Say Hello ;)</button>
-      </form>
-    </section>
     <footer class="footer">
       <div class="footer-left">
         <img src="./img/logo.png" alt="Lukas Müller Logo" class="footer-logo" />
