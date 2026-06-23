@@ -1,29 +1,20 @@
- <section class="portfolio-section">
-      <p class="section-label">Portfolio</p>
-      <h2>Featured Projects</h2>
+<section class="portfolio-section section-space" id="projects-section">
+  <div class="container">
+    <p class="section-label" data-lang="portfolio">Portfolio</p>
+    <h2 data-lang="featuredProjects">Featured Projects</h2>
+    <p class="portfolio-text" data-lang="projectIntro">
+      Take a look at some of my selected projects. Each one was a chance to learn and improve.
+    </p>
 
-      <p class="portfolio-text">
-        Explore a selection of my work here - Interact with <br />
-        projects to see my skills in action.
-      </p>
+    <div class="project-layout">
+      <div class="project-list" id="projectList"></div>
 
-      <div class="project-list">
-        <div class="project-row">
-          <h3>Join</h3>
-          <p>
-            Angular <span>|</span> TypeScript <span>|</span> HTML
-            <span>|</span> CSS <span>|</span> Firebase
-          </p>
-        </div>
-
-        <div class="project-row">
-          <h3>El Pollo Loco</h3>
-          <p>HTML <span>|</span> CSS <span>|</span> JavaScript</p>
-        </div>
-
-        <div class="project-row">
-          <h3>DA Bubble</h3>
-          <p>Angular <span>|</span> Firebase <span>|</span> TypeScript</p>
-        </div>
+      <div class="preview-box" aria-hidden="true">
+        <div class="preview-lines"></div>
+        <img id="projectPreview" src="" alt="Project Preview" />
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+<div class="modal-overlay" id="projectModal" aria-hidden="true"></div>

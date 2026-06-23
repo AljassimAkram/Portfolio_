@@ -1,41 +1,33 @@
-<section class="contact-section">
-      <div class="contact-left">
-        <p class="label">Contact me</p>
-        <h2>Let's work<br />together</h2>
+<section class="contact-section section-space" id="contact-section">
+  <div class="container contact-inner">
+    <div class="contact-left">
+      <p class="section-label" data-lang="contactMe">Contact me</p>
+      <h2 data-lang="contactTitle">Let's work together</h2>
+      <h3 data-lang="problemTitle">Got a problem to solve?</h3>
+      <p data-lang="contactText">
+        I am interested in frontend development and would be happy to support your project.
+      </p>
+      <p><span data-lang="needDeveloper">Need a Frontend developer?</span> <a href="mailto:akramaljassim@email.com" data-lang="talkLink">Let’s talk!</a></p>
+    </div>
 
-        <h3>Got a problem to solve?</h3>
-        <p>
-          Encourage people to contact you and describe what role you are
-          interested in. Show that you will add value to their projects through
-          your work.
-        </p>
-
-        <p>Need a Frontend developer? <a href="#">Let’s talk!</a></p>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name" data-lang="yourName">What's your name?</label>
+        <input id="name" type="text" data-placeholder="namePlaceholder" placeholder="Your name goes here" />
       </div>
-
-      <form class="contact-form">
-        <div class="form-group">
-          <label>What's your name?</label>
-          <input type="text" placeholder="Your name goes here" />
-        </div>
-
-        <div class="form-group">
-          <label>What's your email?</label>
-          <input type="email" placeholder="youremail@email.com" />
-        </div>
-
-        <div class="form-group">
-          <label>How can I help you?</label>
-          <textarea placeholder="Hello Lukas, I am interested in..."></textarea>
-        </div>
-
-        <label class="checkbox">
-          <input type="checkbox" />
-          <span></span>
-          I've read the <a href="#">privacy policy</a> and agree to the
-          processing of my data as outlined.
-        </label>
-
-        <button type="submit">Say Hello ;)</button>
-      </form>
-    </section>
+      <div class="form-group">
+        <label for="email" data-lang="yourEmail">What's your email?</label>
+        <input id="email" type="email" data-placeholder="emailPlaceholder" placeholder="youremail@email.com" />
+      </div>
+      <div class="form-group">
+        <label for="message" data-lang="yourMessage">How can I help you?</label>
+        <textarea id="message" data-placeholder="messagePlaceholder" placeholder="Hello Akram, I am interested in..."></textarea>
+      </div>
+      <label class="checkbox">
+        <input type="checkbox" />
+        <span data-lang="privacyText">I've read the privacy policy and agree to the processing of my data.</span>
+      </label>
+      <button type="submit"><span data-lang="sayHello">Say Hello ;)</span></button>
+    </form>
+  </div>
+</section>

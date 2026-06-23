@@ -1,0 +1,17 @@
+.testimonials-inner { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 55px; overflow: hidden; }
+.testimonials h2 { color: var(--primary); font-size: clamp(2rem, 5vw, 3rem); text-align: center; }
+.slider { display: flex; align-items: center; justify-content: center; gap: 32px; width: 100%; }
+.card { border: 1px solid var(--primary); border-radius: 28px; background: #184942; padding: 28px; width: min(100%, 560px); min-height: 220px; }
+.card.side { opacity: 0.4; transform: scale(0.9); }
+.card.active { transform: scale(1); }
+.card p { font-size: 1.05rem; line-height: 1.6; }
+.line { width: 80%; height: 2px; background: #ccc; margin: 22px 0 12px; }
+.author { text-align: right; font-weight: 700; }
+.empty { width: 280px; min-height: 220px; opacity: 0; }
+.controls { display: flex; align-items: center; gap: 18px; }
+.arrow { border: 0; background: transparent; color: #fff; font-size: 2rem; cursor: pointer; }
+.arrow:hover { color: var(--primary); }
+.dots { display: flex; gap: 10px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: gray; border: 0; cursor: pointer; }
+.dot.active { background: var(--primary); }
+@media (max-width: 768px) { .slider { flex-direction: column; } .card.side, .empty { display: none; } }

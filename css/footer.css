@@ -1,0 +1,6 @@
+.footer { background: var(--bg); padding-block: 55px; }
+.footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 40px; }
+.footer-left, .footer-links { display: flex; flex-direction: column; gap: 12px; }
+.footer-logo { width: 170px; }
+.footer-links a:hover, .copyright { color: var(--primary); }
+@media (max-width: 992px) { .footer-inner { flex-direction: column; text-align: center; } .footer-links { flex-direction: row; flex-wrap: wrap; justify-content: center; } }

@@ -1,0 +1,229 @@
+.portfolio-section h2 {
+  color: var(--primary);
+  font-size: clamp(2.5rem, 7vw, 5.2rem);
+  line-height: 1.05;
+  margin-bottom: 20px;
+}
+
+.portfolio-text {
+  color: var(--muted);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.6;
+  max-width: 760px;
+  margin-bottom: 46px;
+}
+
+.project-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+  align-items: center;
+  gap: clamp(36px, 7vw, 90px);
+}
+
+.project-list {
+  width: 100%;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  border-top: 1px solid var(--primary);
+  padding: 32px 0;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.project-row:last-child {
+  border-bottom: 1px solid var(--primary);
+}
+
+.project-row:hover {
+  padding-inline: 16px;
+  background: rgba(53, 224, 194, 0.14);
+}
+
+.project-row h3 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+.project-row p {
+  color: var(--muted);
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+}
+
+.arrow-row {
+  color: var(--primary);
+  opacity: 0;
+}
+
+.project-row:hover .arrow-row {
+  opacity: 1;
+}
+
+.preview-box {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+}
+
+.preview-lines {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: repeating-linear-gradient(-45deg, var(--primary) 0 2px, transparent 2px 14px);
+  transition: opacity 0.25s;
+}
+
+#projectPreview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  border-radius: 22px;
+  background: #fff;
+  opacity: 0;
+  transform: scale(0.96);
+  transition: opacity 0.25s, transform 0.25s;
+}
+
+.preview-lines.show,
+#projectPreview.show {
+  opacity: 1;
+}
+
+#projectPreview.show {
+  transform: scale(1);
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.72);
+  overflow-y: auto;
+}
+
+.modal-overlay.open {
+  display: flex;
+}
+
+.project-modal {
+  position: relative;
+  width: min(100%, 1180px);
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  border: 1px solid var(--primary);
+  border-radius: 28px;
+  padding: clamp(26px, 5vw, 60px);
+  background: linear-gradient(120deg, #1b1b1b, #08463b);
+}
+
+.close-modal {
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.modal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: clamp(30px, 5vw, 70px);
+}
+
+.project-number {
+  color: var(--primary);
+  font-size: clamp(4rem, 11vw, 7rem);
+  font-weight: 800;
+  line-height: 0.9;
+}
+
+.project-modal h2 {
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  line-height: 1;
+  margin-bottom: 36px;
+}
+
+.project-modal h3 {
+  color: var(--primary);
+  font-family: "Courier New", monospace;
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  margin-bottom: 20px;
+}
+
+.project-description {
+  color: var(--muted);
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.project-tech,
+.project-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.project-tech {
+  color: var(--muted);
+  margin-bottom: 34px;
+}
+
+.project-buttons {
+  gap: 22px;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 24px;
+  background: #fff;
+  object-fit: cover;
+}
+
+.next-project {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 56px;
+}
+
+.next-project button {
+  border: 0;
+  background: transparent;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .project-layout,
+  .modal-grid { grid-template-columns: 1fr; }
+  .project-image { order: -1; }
+}
+
+@media (max-width: 600px) {
+  .preview-box { display: none; }
+  .project-row { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 500px) {
+  .modal-overlay { padding: 12px; align-items: flex-start; }
+  .project-modal { max-height: calc(100vh - 24px); border-radius: 20px; }
+  .project-buttons { flex-direction: column; }
+}

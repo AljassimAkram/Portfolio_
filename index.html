@@ -3,100 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-    <title>Portfolio</title>
+    <title>Akram Al Jassim | Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/testimonials.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script src="./lang/en.js" defer></script>
+    <script src="./lang/de.js" defer></script>
+    <script src="./js/data.js" defer></script>
+    <script src="./js/language.js" defer></script>
+    <script src="./js/projects.js" defer></script>
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/main.js" defer></script>
   </head>
   <body>
-    <section class="hero">
-      <header class="navbar">
-        <div class="lang-switch">
-          <span class="active" id="en" onclick="toggleLanguage('en')">EN</span>
-          <span id="de" onclick="toggleLanguage('de')">DE</span>
-        </div>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <header class="navbar">
+          <div class="logo-mark">AJ</div>
+          <div class="nav-left">
+            <div class="nav-panel" id="navPanel">
+              <div class="lang-switch" aria-label="Language switch">
+                <button class="active" id="en" type="button" onclick="changeLanguage('en')">EN</button>
+                <button id="de" type="button" onclick="changeLanguage('de')">DE</button>
+              </div>
+              <nav aria-label="Main navigation">
+                <a href="#about" class="menu" data-lang="navAbout">About me</a>
+                <a href="#skills" class="menu" data-lang="navSkills">Skills</a>
+                <a href="#projects" class="menu" data-lang="navProjects">Projects</a>
+              </nav>
+            </div>
+          </div>
 
-        <nav>
-          <a href="#about" class="menu">About me</a>
-          <a href="#skills" class="menu">Skills</a>
-          <a href="#projects" class="menu">Projects</a>
-        </nav>
+          <a class="logo" href="#home" aria-label="Homepage">
+            <span class="logo-text">Akram<br />Al Jassim</span>
+          </a>
 
-        <div class="logo">
-          <span class="logo-mark">M</span>
-          <div class="logo-text">
-            <span>Akram</span>
-            <span>Al Jassim</span>
+          <button class="burger-btn" id="burgerBtn" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </header>
+
+        <div class="hero-content">
+          <p class="subtitle" data-lang="heroSubtitle">Frontend Developer</p>
+          <h1>Akram Al Jassim</h1>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn"><span data-lang="checkWork">Check my work</span></a>
+            <a href="#contact" class="btn"><span data-lang="contactMe">Contact me</span></a>
           </div>
         </div>
-      </header>
-      <div class="hero-content">
-        <p class="subtitle">Frontend Developer</p>
-        <h1>Akram Al Jassim</h1>
 
-        <div class="hero-buttons">
-          <a href="#projects" class="btn">
-            <span>Check my work</span></a>
-          <a href="#contact" class="btn"> 
-            <span>Contact me</span></a>
+        <div class="left-side" aria-hidden="true">
+          <a href="#about" class="scroll-btn">
+            <img class="scroll-down" src="./assets/img/arrow-down.png" alt="" />
+          </a>
+          <div class="side-line"></div>
+        </div>
+
+        <div class="right-side">
+          <div class="socials">
+            <a href="mailto:akramaljassim@email.com" class="email">akramaljassim@email.com</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+          </div>
+          <div class="side-line" aria-hidden="true"></div>
         </div>
       </div>
 
-      <div class="left-side">
-        <div class="scroll-btn">
-          <img class="scroll-down" src="./assets/img/arrow-down.png" alt="Scroll down">
-        </div>
-        <div class="line"></div>
-      </div>
-
-      <div class="right-side">
-        <div class="socials">
-          <a href="mailto:akramaljassim@email.com" class="email"
-           >akramaljassim@email.com</a>
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-        </div>
-        <div class="line-right"></div>
-      </div>
-      <div class="moving-line">
+      <div class="moving-line" aria-hidden="true">
         <div id="tickerTrack" class="ticker-track">
-          <span>
-            Developer • Based in Munich • Open to work • Available for remote
-            work •
-          </span>
+          <span data-lang="ticker">Developer • Based in Munich • Open to work • Available for remote work •</span>
         </div>
       </div>
-      <!-- <div class="moving-line">
-        <span
-          class="scroll-text"
-          data-text="Developer • Based in Munich • Open to work • Available for remote work •"
-        >
-          Developer • Based in Munich • Open to work • Available for remote work
-          •
-        </span>
-      </div> -->
     </section>
-    <div id="about"></div>
-    <div id="skills"></div>
-    <div id="projects"></div>
-    <div id="oppinion"></div>
-    <div id="contact"></div>
+
+    <main>
+      <div id="about"></div>
+      <div id="skills"></div>
+      <div id="projects"></div>
+      <div id="oppinion"></div>
+      <div id="contact"></div>
+    </main>
 
     <footer class="footer">
-      <div class="footer-left">
-        <img src="./img/logo.png" alt="Lukas Müller Logo" class="footer-logo" />
-
-        <p>Web Developer</p>
-        <p>Munich Germany</p>
-      </div>
-
-      <p class="copyright">© Lukas Müller 2025</p>
-
-      <div class="footer-links">
-        <a href="#">Github</a>
-        <a href="#">LinkedIn</a>
-        <a href="mailto:lukas@email.com">Email</a>
-        <a href="#">Legal Notice</a>
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <img src="./img/logo.png" alt="Akram Al Jassim Logo" class="footer-logo" />
+          <p data-lang="heroSubtitle">Frontend Developer</p>
+          <p>Munich, Germany</p>
+        </div>
+        <p class="copyright">© Akram Al Jassim 2026</p>
+        <div class="footer-links">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="mailto:akramaljassim@email.com">Email</a>
+          <a href="#" data-lang="legalNotice">Legal Notice</a>
+        </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

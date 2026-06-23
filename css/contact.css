@@ -1,0 +1,15 @@
+.contact-inner { display: flex; align-items: center; justify-content: center; gap: clamp(44px, 8vw, 120px); }
+.contact-left { flex: 1; max-width: 620px; }
+.contact-left h2 { color: var(--primary); font-size: clamp(2.5rem, 7vw, 5.2rem); line-height: 1.05; margin-bottom: 34px; }
+.contact-left h3 { color: var(--primary); font-size: clamp(1.4rem, 3vw, 2rem); margin-bottom: 18px; }
+.contact-left p { font-size: clamp(1rem, 2vw, 1.25rem); line-height: 1.6; color: var(--muted); margin-bottom: 28px; }
+.contact-left a { color: var(--primary); font-weight: 700; }
+.contact-form { flex: 1.2; display: flex; flex-direction: column; gap: 28px; }
+.form-group { border-top: 1px solid var(--primary); padding: 26px 0; }
+.form-group:last-of-type { border-bottom: 1px solid var(--primary); }
+.form-group label { display: block; color: var(--primary); font-size: clamp(1.2rem, 3vw, 1.8rem); font-weight: 700; margin-bottom: 14px; }
+input, textarea { width: 100%; background: transparent; border: 0; outline: 0; color: #fff; font-size: 1.1rem; }
+textarea { min-height: 110px; resize: vertical; }
+.checkbox { display: flex; gap: 12px; align-items: flex-start; color: var(--muted); line-height: 1.4; }
+.checkbox input { width: auto; margin-top: 4px; }
+@media (max-width: 992px) { .contact-inner { flex-direction: column; text-align: center; } .contact-form, .contact-left { width: 100%; max-width: 100%; } .checkbox { text-align: left; } }
